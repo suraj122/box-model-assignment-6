@@ -1,0 +1,135 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  text-align: center;
+}
+
+/* Header */
+h1 {
+  font-size: 48px;
+  padding: 32px;
+}
+
+.hr {
+  width: 540px;
+  border: 0;
+  height: 1px;
+  border-bottom: 1px dashed #888;
+  margin: 32px auto;
+}
+
+/* Exercise 1 */
+h2 {
+  font-size: 32px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #DAFAD4;
+  border: 20px solid #ADD9E6;
+  outline: 5px solid #000;
+  box-shadow: 0 0 0 25px #ED7F80;
+  margin: 48px auto;
+}
+.marker-box {
+  display: inline-block;
+  margin: 0 8px;
+}
+.circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: black;
+  display: inline-block;
+}
+.marker p {
+  display: inline-block;
+}
+.content {
+  background-color: #DAFAD4;
+}
+.padding {
+  background-color: #ADD9E6;
+}
+.border {
+  background-color: #000;
+}
+.margin  {
+  background-color: #ED7F80;
+}
+
+/* Exercise 2 */
+.border-info {
+  font-size:24px;
+  margin: 24px 0;
+}
+.text-left {
+  text-align: left;
+}
+.container {
+  width: 600px;
+  border: 1px solid;
+  margin: 0 auto;
+  font-size: 0;
+}
+.rectangle {
+  width: 180px;
+  height: 100px;
+  margin: 10px;
+  background-color: #CCCCCC;
+  display: inline-block;
+}
+.border {
+  border: 1px solid black;
+}
+.border-box {
+  box-sizing: border-box;
+}

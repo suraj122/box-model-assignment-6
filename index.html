@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The box model</title>
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>The Box Model, Box-sizing & Box-shadow</h1>
+    </header>
+    <main>
+      <div class="hr"></div>
+      <section>
+        <h2>Exercise 1</h2>
+        <div class="box"></div>
+        <div class="marker">
+          <div class="marker-box">
+            <div class="circle content"></div>
+            <p>Content</p>
+          </div>
+          <div class="marker-box">
+            <div class="circle padding"></div>
+            <p>Padding</p>
+          </div>
+          <div class="marker-box">
+            <div class="circle border"></div>
+            <p>Border</p>
+          </div>
+          <div class="marker-box">
+            <div class="circle margin"></div>
+            <p>Margin</p>
+          </div>
+        </div>
+      </section>
+      <div class="hr"></div>
+      <section>
+        <h2>Exercise 2</h2>
+        <p class="border-info">No border on these boxes</p>
+        <div class="container">
+          <div class="rectangle"></div>
+          <div class="rectangle"></div>
+          <div class="rectangle"></div>
+        </div>
+      </section>
+      <div class="hr"></div>
+      <section>
+        <p class="border-info">1px border on these boxes</p>
+        <div class="container text-left">
+          <div class="rectangle border"></div>
+          <div class="rectangle border"></div>
+          <div class="rectangle border"></div>
+        </div>
+      </section>
+      <div class="hr"></div>
+      <section>
+        <p class="border-info">1px border on these boxes</p>
+        <div class="container text-left">
+          <div class="rectangle border border-box"></div>
+          <div class="rectangle border border-box"></div>
+          <div class="rectangle border border-box"></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
